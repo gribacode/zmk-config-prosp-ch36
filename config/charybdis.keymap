@@ -94,22 +94,6 @@
         timeout-ms = <20>;
         require-prior-idle-ms = <250>;
 
-        combo_reset_layer_left {
-            key-positions = <20 24>;
-            bindings = <&to 7>;
-        };
-
-        combo_reset_layer_right {
-            key-positions = <29>;
-            bindings = <&to 7>;
-        };
-
-        combo_reset_central {
-            key-positions = <32 33>;
-            bindings = <&bootloader>;
-            require-prior-idle-ms = <2000>;
-        };
-
         combo_normal {
             key-positions = <7 8>;
             bindings = <&to 0>;
@@ -138,11 +122,6 @@
         combo_cdel {
             key-positions = <11 12>;
             bindings = <&kp LC(BACKSPACE)>;
-        };
-
-        combo_unlock {
-            key-positions = <0 4>;
-            bindings = <&studio_unlock>;
         };
     };
 
