@@ -2,4 +2,14 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install --upgrade west
+      - name: Init West
+        run: west init -l config
+      - name: Reset modules
+        run: west update --reset
+      - name: Build firmware
+        run: west build -s zmk/app -b <твоя_плата> -- -DZMK_CONFIG=$(pwd)/config
