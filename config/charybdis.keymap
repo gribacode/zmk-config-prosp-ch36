@@ -106,7 +106,7 @@
 
         combo_genshin {
             key-positions = <5 9>;
-            bindings = <&to 0>;
+            bindings = <&to 5>;
         };
 
         combo_esc {
