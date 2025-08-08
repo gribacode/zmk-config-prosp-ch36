@@ -2,27 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install west
-        run: pip install --upgrade west
-
-      - name: Init West
-        run: west init -l config
-
-      - name: Clean modules
-        run: rm -rf modules
-
-      - name: Update modules
-        run: west update
-
-      - name: Build firmware
-        run: west build -s zmk/app -b <твоя_плата> -- -DZMK_CONFIG=$(pwd)/config
-
-      - name: Upload firmware
-        uses: actions/upload-artifact@v4
-        with:
-          name: firmware
-          path: build/zephyr/zmk.*
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
