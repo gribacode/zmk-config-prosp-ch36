@@ -148,9 +148,9 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans    &trans    &none      &none      &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans          &trans        &trans          &trans           &trans
+&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1        &mkp MB2      &mkp MB3        &trans           &trans
+&trans  &trans    &trans    &none      &none      &trans      &trans  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans
                             &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
             >;
         };
