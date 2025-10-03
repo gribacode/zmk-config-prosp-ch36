@@ -188,10 +188,10 @@
         Button {
             display-name = "Game";
             bindings = <
-&kp NUMBER_1  &mt TAB NUMBER_4         &kp Q  &kp W           &kp E      &kp R        &kp ESC       &none     &none     &none     &none   &trans
-&kp NUMBER_2  &mt LEFT_SHIFT NUMBER_5  &kp A  &kp S           &kp D      &kp G        &kp LEFT_WIN  &mkp MB1  &mkp MB2  &mkp MB3  &none   &trans
-&kp NUMBER_3  &kp M                    &kp Z  &kp X           &kp C      &kp V        &kp N1        &kp N2    &kp N3    &kp N4    &kp N5  &trans
-                                              &mt LEFT_ALT F  &kp LCTRL  &kp SPACE    &kp T         &kp B
+&kp NUMBER_1  &mt TAB NUMBER_4  &kp Q  &kp W           &kp E      &kp R                   &kp ESC       &none     &none     &none     &none   &trans
+&kp NUMBER_2  &kp NUMBER_5      &kp A  &kp S           &kp D      &kp G                   &kp LEFT_WIN  &mkp MB1  &mkp MB2  &mkp MB3  &none   &trans
+&kp NUMBER_3  &kp M             &kp Z  &kp X           &kp C      &kp V                   &kp N1        &kp N2    &kp N3    &kp N4    &kp N5  &trans
+                                       &mt LEFT_ALT F  &kp LCTRL  &mt LEFT_SHIFT SPACE    &kp T         &kp B
             >;
         };
     };
