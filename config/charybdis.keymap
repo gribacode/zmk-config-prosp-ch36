@@ -185,7 +185,7 @@
 &trans  &none  &kp HOME      &kp UP_ARROW  &kp END       &kp INSERT        &kp PAGE_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &trans
 &trans  &none  &kp LEFT      &kp DOWN      &kp RIGHT     &kp ENTER         &kp PAGE_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &trans
 &trans  &none  &kp LEFT_WIN  &kp CAPSLOCK  &kp LEFT_WIN  &kp LC(DELETE)    &kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
-                             &none         &none         &none             &trans           &none
+                             &none         &none         &none             &trans           &kp NUMBER_0
             >;
         };
 
