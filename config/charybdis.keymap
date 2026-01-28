@@ -173,7 +173,7 @@
             display-name = "Symbol";
             bindings = <
 &trans  &none  &none            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE        &kp GRAVE    &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &trans
-&trans  &none  &none            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON       &kp PLUS     &kp MINUS  &kp SLASH      &kp ASTRK         &kp SINGLE_QUOTE   &trans
+&trans  &none  &kp DOLLAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON       &kp PLUS     &kp MINUS  &kp SLASH      &kp ASTRK         &kp SINGLE_QUOTE   &trans
 &trans  &none  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp AMPS     &kp EQUAL  &kp UNDER      &kp PERCENT       &kp DOUBLE_QUOTES  &trans
                                 &kp DOT               &kp COMMA              &kp SEMI        &kp AT_SIGN  &none
             >;
