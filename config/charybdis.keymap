@@ -96,7 +96,7 @@
 
         combo_normal {
             key-positions = <7 8>;
-            bindings = <&to 0>;
+            bindings = <&to 1>;
         };
 
         combo_fn {
@@ -152,10 +152,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&lt 4 ESC       &kp Q  &kp W  &kp E      &kp R         &kp T        &kp Y        &kp U            &kp I      &kp O       &kp P          &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D      &kp F         &kp G        &kp H        &kp J            &kp K      &kp L       &kp SEMICOLON  &kp LEFT_WIN
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B        &kp N        &kp M            &kp COMMA  &kp PERIOD  &kp SQT        &alt_shift
-                              &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &lt 3 ENTER  &lt 2 BACKSPACE
+&lt 4 ESC       &kp Q  &kp W  &kp E  &kp R         &kp T        &kp Y      &kp U  &kp I      &kp O       &kp P          &kp BACKSPACE
+&kp TAB         &kp A  &kp S  &kp D  &kp F         &kp G        &kp H      &kp J  &kp K      &kp L       &kp SEMICOLON  &kp LEFT_WIN
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V         &kp B        &kp N      &kp M  &kp COMMA  &kp PERIOD  &kp SQT        &alt_shift
+                              &sl 3  &kp LEFT_ALT  &kp SPACE    &kp ENTER  &sl 2
             >;
         };
 
@@ -172,20 +172,20 @@
         Sym {
             display-name = "Symbol";
             bindings = <
-&trans  &none  &none            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE        &kp GRAVE    &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &trans
-&trans  &none  &kp DOLLAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON       &kp PLUS     &kp MINUS  &kp SLASH      &kp ASTRK         &kp SINGLE_QUOTE   &trans
-&trans  &none  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp AMPS     &kp EQUAL  &kp UNDER      &kp PERCENT       &kp DOUBLE_QUOTES  &trans
-                                &kp DOT               &kp COMMA              &kp SEMI        &kp AT_SIGN  &none
+&trans     &none  &kp DOLLAR       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE        &kp GRAVE  &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &trans
+&trans     &none  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON       &kp PLUS   &kp MINUS  &kp SLASH      &kp ASTRK         &kp SINGLE_QUOTE   &trans
+&kp LCTRL  &none  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp AMPS   &kp EQUAL  &kp UNDER      &kp PERCENT       &kp DOUBLE_QUOTES  &trans
+                                   &kp DOT               &kp COMMA              &kp SEMI        &none      &none
             >;
         };
 
         Num {
             display-name = "Number";
             bindings = <
-&trans  &none  &kp HOME      &kp UP_ARROW  &kp END       &kp INSERT        &kp PAGE_UP      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &trans
-&trans  &none  &kp LEFT      &kp DOWN      &kp RIGHT     &kp ENTER         &kp PAGE_DOWN    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &trans
-&trans  &none  &kp LEFT_WIN  &kp CAPSLOCK  &kp LEFT_WIN  &kp LC(DELETE)    &kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
-                             &none         &none         &none             &trans           &kp NUMBER_0
+&trans     &none  &kp HOME      &kp UP_ARROW  &kp END       &kp INSERT        &kp PAGE_UP    &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &none  &trans
+&trans     &none  &kp LEFT      &kp DOWN      &kp RIGHT     &kp ENTER         &kp PAGE_DOWN  &kp NUMBER_4     &kp NUMBER_5  &kp NUMBER_6  &none  &trans
+&kp LCTRL  &none  &kp LEFT_WIN  &kp CAPSLOCK  &kp LEFT_WIN  &kp LC(DELETE)    &kp NUMBER_0   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &none  &trans
+                                &none         &none         &none             &trans         &kp PRINTSCREEN
             >;
         };
 
