@@ -185,7 +185,7 @@
 &trans  &none  &kp DOLLAR       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE        &kp GRAVE  &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &trans
 &trans  &none  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON       &kp PLUS   &kp MINUS  &kp SLASH      &kp ASTRK         &kp SINGLE_QUOTE   &trans
 &trans  &none  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION    &kp AMPS   &kp EQUAL  &kp UNDER      &kp PERCENT       &kp DOUBLE_QUOTES  &trans
-                                &trans                &trans                 &trans          &none      &none
+                                &trans                &trans                 &trans          &trans     &trans
             >;
         };
 
@@ -195,7 +195,7 @@
 &trans  &none  &kp F7  &kp F8  &kp F9  &kp F10    &none            &none         &none             &none            &none  &trans
 &trans  &none  &kp F4  &kp F5  &kp F6  &kp F11    &kp PRINTSCREEN  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &none  &trans
 &trans  &none  &kp F1  &kp F2  &kp F3  &kp F12    &none            &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT       &none  &trans
-                       &trans  &trans  &trans     &none            &none
+                       &trans  &trans  &trans     &trans           &trans
             >;
         };
 
