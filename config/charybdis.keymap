@@ -164,7 +164,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1        &mkp MB2      &mkp MB3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_DOWN  &msc SCRL_UP  &none     &none   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_DOWN  &msc SCRL_UP  &trans    &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
             >;
         };
