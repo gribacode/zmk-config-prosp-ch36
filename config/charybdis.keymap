@@ -96,17 +96,17 @@
 
         combo_normal {
             key-positions = <7 8>;
-            bindings = <&to 1>;
+            bindings = <&to 0>;
         };
 
         combo_fn {
             key-positions = <27 28>;
-            bindings = <&sl 5>;
+            bindings = <&sl 4>;
         };
 
         combo_genshin {
             key-positions = <5 9>;
-            bindings = <&to 5>;
+            bindings = <&to 4>;
         };
 
         combo_esc {
@@ -152,20 +152,10 @@
         Base {
             display-name = "Base";
             bindings = <
-&lt 4 ESCAPE    &kp Q  &kp W  &kp E      &kp R         &kp T        &kp Y        &kp U            &kp I      &kp O       &kp P          &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D      &kp F         &kp G        &kp H        &kp J            &kp K      &kp L       &kp SEMICOLON  &lt 1 LEFT_WIN
+&lt 3 ESCAPE    &kp Q  &kp W  &kp E      &kp R         &kp T        &kp Y        &kp U            &kp I      &kp O       &kp P          &kp BACKSPACE
+&kp TAB         &kp A  &kp S  &kp D      &kp F         &kp G        &kp H        &kp J            &kp K      &kp L       &kp SEMICOLON  &kp LEFT_WIN
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V         &kp B        &kp N        &kp M            &kp COMMA  &kp PERIOD  &kp SQT        &alt_shift
-                              &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &lt 2 ENTER  &lt 3 BACKSPACE
-            >;
-        };
-
-        Mouse {
-            display-name = "Mouse";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1        &mkp MB2      &mkp MB3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &msc SCRL_DOWN  &msc SCRL_UP  &trans    &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+                              &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &lt 1 ENTER  &lt 2 BACKSPACE
             >;
         };
 
@@ -192,9 +182,9 @@
         Fun {
             display-name = "Function";
             bindings = <
-&trans  &none  &kp F7  &kp F8  &kp F9  &kp F10    &kp PRINTSCREEN  &none         &none             &none            &none  &trans
-&trans  &none  &kp F4  &kp F5  &kp F6  &kp F11    &none            &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &none  &trans
-&trans  &none  &kp F1  &kp F2  &kp F3  &kp F12    &none            &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT       &none  &trans
+&trans  &none  &kp F7  &kp F8  &kp F9  &kp F10    &kp PRINTSCREEN  &mkp MB1      &mkp MB2          &mkp MB3         &none  &trans
+&trans  &none  &kp F4  &kp F5  &kp F6  &kp F11    &msc SCRL_UP     &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &none  &trans
+&trans  &none  &kp F1  &kp F2  &kp F3  &kp F12    &msc SCRL_DOWN   &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT       &none  &trans
                        &trans  &trans  &trans     &trans           &trans
             >;
         };
@@ -202,10 +192,10 @@
         Button {
             display-name = "Game";
             bindings = <
-&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &none   &none     &none     &none     &none   &trans
-&kp TAB         &kp Z         &kp Q         &kp W         &kp E         &kp R        &none   &mkp MB1  &mkp MB2  &mkp MB3  &none   &trans
-&kp LEFT_SHIFT  &kp X         &kp A         &kp S         &kp D         &kp F        &kp N1  &kp N2    &kp N3    &kp N4    &kp N5  &trans
-                                            &kp C         &kp LCTRL     &kp SPACE    &kp N   &kp M
+&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &none  &mkp MB1  &mkp MB2  &mkp MB3  &none  &trans
+&kp TAB         &kp Z         &kp Q         &kp W         &kp E         &kp R        &none  &none     &none     &none     &none  &trans
+&kp LEFT_SHIFT  &kp X         &kp A         &kp S         &kp D         &kp F        &none  &none     &none     &none     &none  &trans
+                                            &kp C         &kp LCTRL     &kp SPACE    &kp N  &kp M
             >;
         };
     };
