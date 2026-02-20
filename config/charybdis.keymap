@@ -139,6 +139,18 @@
 
             label = "ALT_SHIFT";
         };
+
+        terminal: terminal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN &kp GRAVE>,
+                <&macro_release>,
+                <&kp LEFT_WIN &kp GRAVE>;
+
+            label = "TERMINAL";
+        };
     };
 
     keymap {
@@ -182,10 +194,10 @@
         Fun {
             display-name = "Function";
             bindings = <
-&trans  &none  &kp F7  &kp F8  &kp F9  &kp F10    &kp PRINTSCREEN  &mkp MB1      &mkp MB2          &mkp MB3         &none  &trans
-&trans  &none  &kp F4  &kp F5  &kp F6  &kp F11    &msc SCRL_UP     &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &none  &trans
-&trans  &none  &kp F1  &kp F2  &kp F3  &kp F12    &msc SCRL_DOWN   &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT       &none  &trans
-                       &trans  &trans  &trans     &trans           &trans
+&trans  &terminal  &kp F7  &kp F8  &kp F9  &kp F10    &kp PRINTSCREEN  &mkp MB1      &mkp MB2          &mkp MB3         &none  &trans
+&trans  &none      &kp F4  &kp F5  &kp F6  &kp F11    &msc SCRL_UP     &kp C_VOL_DN  &kp K_MUTE        &kp C_VOLUME_UP  &none  &trans
+&trans  &none      &kp F1  &kp F2  &kp F3  &kp F12    &msc SCRL_DOWN   &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT       &none  &trans
+                           &trans  &trans  &trans     &trans           &trans
             >;
         };
 
